@@ -1,4 +1,4 @@
-#encoding utf8
+#coding: utf8
 from flask import Flask,render_template,redirect,g,request,url_for,session
 import config
 from models import User,Question,Answer
